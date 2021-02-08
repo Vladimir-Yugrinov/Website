@@ -1,0 +1,547 @@
+@import 'fonts.css';
+
+body {
+    font-family: 'Open Sans';
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*Menu-Start*/
+.menu-bar {
+    background: #fff;
+    color: #212121;
+    padding: 50px 0;
+}
+
+.menu__item {
+    margin-left: 37px;
+}
+
+.menu__item a {
+    font-size: 20px;
+    color: #212121;
+    font-family: 'Open Sans Semibold';
+}
+
+.menu__item a:hover {
+    text-decoration: none;
+    color: #868686;
+}
+
+.menu-icon {
+    display: none;
+}
+/*Menu-End*/
+
+/*Header-Start*/
+.header {
+    background-image: url(../image/header.png);
+    background-size: cover;
+    background-position: 0 100%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans Semibold';
+    padding: 180px 0;
+}
+
+.header__title {
+    font-size: 55px;
+}
+
+.header__text {
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.button {
+    background: #00897b;
+    border: 2px solid #00897b;
+    cursor: pointer;
+    padding: 10px 25px;
+    margin: 0 10px;
+    color: #fff;
+    transition: linear 0.3s;
+}
+
+.button:hover {
+    background: transparent;
+    border: 2px solid #fff;
+    transition: linear 0.3s;
+}
+/*Header-End*/
+
+/*About-Start*/
+.about {
+    color: #000;
+    background: #fff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 125px;
+}
+
+.about__title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about__text {
+    color: #212121;
+    font-size: 15px;
+    margin-bottom: 110px;
+}
+
+.about_h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans Semibold';
+    font-size: 20px;
+}
+/*About-End*/
+
+/*OurServices-Start*/
+.services {
+    color: #000;
+    background: #e4fdf9;
+    text-align: center;
+    padding-top: 165px;
+    padding-bottom: 125px;
+}
+
+.our_card {
+    background: #fff;
+    padding: 50px 25px 40px;
+    margin-bottom: 20px;
+    transition: linear 0.3s;
+}
+
+.our_card:hover {
+    background: #00897b;
+    color: #fff;
+    box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
+    transition: linear 0.3s;
+}
+
+.our_card:hover .icon {
+    color: #fff;
+    transition: linear 0.3s;
+}
+
+.our_card:hover .button-services {
+    color: #fff;
+    border: solid 3px #fff;
+    transition: linear 0.3s;
+}
+.icon {
+    font-size: 60px;
+    color: #000;
+    transition: linear 0.3s;
+}
+
+.button-services {
+    font-family: 'Open Sans Semibold';
+    border: solid 3px #000;
+    background: transparent;
+    padding: 10px 12px 10px;
+    transition: linear 0.3s;
+}
+
+.button-services:hover {
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+/*OurServices-End*/
+
+/*Works-Start*/
+.filter {
+    padding: 120px 0;
+}
+
+div[filter]:hover img {
+    filter: brightness(50%);
+    transition: linear 0.3s;
+}
+
+.text {
+    display: none;
+}
+
+div[filter]:hover .text {
+    display: block;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    z-index: 3;
+    text-align: center;
+}
+
+.portfolio {
+    padding-top: 120px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+.portfolio button:hover,
+.focused {
+    color: #000;
+    background: transparent;
+    border: 2px solid #00897b;
+}
+
+.portfolio img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+/*Works-End*/
+
+/*PricingPlan-Start*/
+.pricing {
+    text-align: center;
+    padding: 130px 0;
+    background: #f0f1f1;
+}
+
+.price {
+    margin-bottom: 20px;
+    background: #fff;
+    transition: linear 0.3s;
+}
+
+.price:hover {
+    box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
+    transition: linear 0.3s;
+}
+
+.price__head {
+    color: #fff;
+    background-image: url(../image/Price/price-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 211px;
+    padding-top: 40px;
+    padding-bottom: 65px;
+    
+}
+.price__head {
+    font-size: 50px;
+}
+
+.price__head p {
+    font-size: 25px;
+}
+
+.price__head sub {
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.price__head sup {
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.price__body li {
+    font-size: 17px;
+    color: #212121;
+    
+}
+
+.price__body ul li {
+    padding-top: 28px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    max-width: 170px;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.price__footer {
+    padding: 50px 0;
+    
+}
+
+.price__footer button {
+    cursor: pointer;
+    border: solid 2px #212121;
+    color: #212121;
+    background: transparent;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition: linear 0.3s;
+}
+
+.price__footer button:hover {
+    color: #fff;
+    background: #00897b;
+    border: none;
+    transition: linear 0.3s;
+}
+/*PricingPlan-End*/
+
+/*OurTeamMember-Start*/
+.multiple-items {
+    margin-top: 120px;
+}
+
+.team {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 130px;
+}
+
+.team img {
+    margin: 0 auto;
+    width: 340px;
+}
+
+.team h4 {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans Semibold';
+}
+
+.team p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.icons a {
+    align-items: center;
+    font-size: 30px;
+    margin: 10px;
+    transition: linear 0.3s;
+}
+
+.fab:hover {
+    transform: scale(1.3);
+    transition: linear 0.3s;
+}
+
+.fas:hover {
+    transform: scale(1.3);
+    transition: linear 0.3s;
+}
+
+.far:hover {
+    transform: scale(1.3);
+    transition: linear 0.3s;
+}
+
+.dots-style {
+    margin-top: 115px;
+    display: flex;
+    justify-content: center;
+}
+
+.dots-style button {
+    background: #00897b;
+    border: none;
+    border-radius: 50%;
+    font-size: 0;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+
+.dots-style li[class="slick-active"] button {
+    background: #3949ab;
+}
+/*OurTeamMember-End*/
+
+/*Blog-Start*/
+.blog {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 130px;
+    background: #e4fdf9;
+}
+
+.left > div:first-child {
+    order: 1;
+}
+
+.left > div:last-child {
+    order: 2;
+}
+
+.right > div:first-child {
+    order: 2;
+}
+
+.right > div:last-child {
+    order: 1;
+}
+
+.left, .right {
+    margin: 0 -40px;
+}
+
+.blog__item {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.blog__item a {
+    font-size: 25px;
+    color: #00897b;
+    font-family: 'Open Sans Semibold';
+}
+
+.blog__item div {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.blog__item span {
+    font-size: 17px;
+    font-family: 'Open Sans Semibold';
+    margin-right: 35px;
+}
+
+.blog__item i {
+    margin-right: 15px;
+}
+
+.blog__item p {
+    font-size: 15px;
+}
+
+.button__blog {
+    width: 220px;
+    height: 70px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 125px;
+    border: none;
+    background: #00897b;
+}
+/*Blog-End*/
+
+/*ContactUs-Start*/
+.contact {
+    text-align: center;
+    color: #fff;
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-image: url(../image/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact .about__text {
+    color: #fff;
+}
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3949ab;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto 35px;
+}
+
+.circle + p {
+    font-size: 20px;
+}
+
+.fa-map-marker-alt, .fa-phone-alt, .fa-envelope {
+    font-size: 45px;
+    color: #fff;
+}
+
+.form {
+    margin-top: 70px;
+}
+
+.contact input, .contact textarea {
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact input:focus, .contact textarea:focus {
+    outline: none;
+}
+
+.contact textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    resize: none;
+}
+
+.contact button {
+    font-size: 20px;
+    font-family: 'Roboto' sans-serif;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+.rules {
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Open Sans Semibold';
+}
+/*ContactUs-End*/
+
+/*toTop*/
+#toTop {
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    background: #00897b;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
